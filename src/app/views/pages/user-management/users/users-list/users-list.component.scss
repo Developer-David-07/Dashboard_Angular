@@ -1,0 +1,11 @@
+:host {
+	::ng-deep {
+		ngb-tabset > .nav-tabs {
+			display: none;
+		}
+	}
+}
+.profile_main{
+    background: transparent!important;
+    box-shadow: 0 0 transparent!important;
+}

@@ -1,0 +1,132 @@
+<!-- begin::Offcanvas Toolbar Quick Actions -->
+<div ktOffcanvas [options]="offcanvasOptions" id="kt_quick_panel" class="kt-quick-panel" [ngStyle]="{'overflow': 'hidden'}">
+	<div class="call_queue pt-4 pl-3">
+		<div class="media text-white">
+			<i class="fas fa-video fa-2x mr-3 vid_icon align-self-center"></i>
+			<div class="media-body">
+			  <h4 class="my-0">Call Queue</h4>
+			</div>
+		  </div>
+	</div>
+	<a href="javascript:;" class="kt-quick-panel__close" id="kt_quick_panel_close_btn">
+		<!-- <i class="flaticon2-delete"></i> -->
+		<img class="" width="24px" height="24px" src="./assets/media/icons/cancel_2x.png" alt="Generic" />
+	</a>
+
+	<!-- <div class="kt-quick-panel__nav">
+	</div> -->
+
+	<div class="kt-quick-panel__content kt-margin-t-10">
+		<ngb-tabset #tab="ngbTabset">
+			<ngb-tab id="tab-id-2">
+				<ng-template ngbTabContent>
+					<div perfectScrollbar [ngStyle]="{'max-height': '85vh', 'position': 'relative'}" class="kt-notification-v2">
+						<a href="javascript:;" class="kt-notification-v2__item pl-5">
+							<div class="img_side">
+								<img class="br_50" width="58px" height="58px" src="./assets/media/users/100_7.jpg" alt="Generic" />
+								<div class="online_dot"></div>
+							</div>
+							<!-- <div class="kt-notification-v2__item-icon">
+								<i class="flaticon-bell kt-font-brand"></i>
+							</div> -->
+							<div class="kt-notification-v2__itek-wrapper">
+								<div class="kt-notification-v2__item-title">
+									Adrian Reuel
+								</div>
+							</div>
+						</a>
+
+						<a href="javascript:;" class="kt-notification-v2__item pl-5">
+							<!-- <div class="kt-notification-v2__item-icon">
+								<i class="flaticon2-box kt-font-danger"></i>
+							</div> -->
+							<div class="img_side">
+								<img class="br_50" width="58px" height="58px" src="./assets/media/users/300_20.jpg" alt="Generic" />
+								<div class="online_dot"></div>
+							</div>
+							<div class="kt-notification-v2__itek-wrapper">
+								<div class="kt-notification-v2__item-title">
+									Gerard Ted
+								</div>
+							</div>
+						</a>
+
+						<a href="javascript:;" class="kt-notification-v2__item pl-5">
+							<div class="img_side">
+								<img class="br_50" width="58px" height="58px" src="./assets/media/users/user5.jpg" alt="Generic" />
+								<div class="online_dot"></div>
+							</div>
+							<div class="kt-notification-v2__itek-wrapper">
+								<div class="kt-notification-v2__item-title">
+									Gerard Ted
+								</div>
+							</div>
+						</a>
+
+						<a href="javascript:;" class="kt-notification-v2__item pl-5">
+							<div class="img_side">
+								<img class="br_50" width="58px" height="58px" src="./assets/media/users/300_25.jpg" alt="Generic" />
+								<div class="online_dot"></div>
+							</div>
+							<div class="kt-notification-v2__itek-wrapper">
+								<div class="kt-notification-v2__item-title">
+									Adrian Reuel
+								</div>
+							</div>
+						</a>
+
+						<a href="javascript:;" class="kt-notification-v2__item pl-5">
+							<div class="img_side">
+								<img class="br_50" width="58px" height="58px" src="./assets/media/users/300_5.jpg" alt="Generic" />
+								<div class="online_dot"></div>
+							</div>
+							<div class="kt-notification-v2__itek-wrapper">
+								<div class="kt-notification-v2__item-title">
+									Adrian Reuel
+								</div>
+							</div>
+						</a>
+
+						<a href="javascript:;" class="kt-notification-v2__item pl-5">
+							<div class="img_side">
+								<img class="br_50" width="58px" height="58px" src="./assets/media/users/300_22.jpg" alt="Generic" />
+								<div class="online_dot"></div>
+							</div>
+							<div class="kt-notification-v2__itek-wrapper">
+								<div class="kt-notification-v2__item-title">
+									Adrian Reuel
+								</div>
+							</div>
+						</a>
+
+						<a href="javascript:;" class="kt-notification-v2__item pl-5">
+							<div class="img_side">
+								<img class="br_50" width="58px" height="58px" src="./assets/media/users/300_4.jpg" alt="Generic" />
+								<div class="online_dot"></div>
+							</div>
+							<div class="kt-notification-v2__itek-wrapper">
+								<div class="kt-notification-v2__item-title">
+									Adrian Reuel
+								</div>
+							</div>
+						</a>
+
+						<a href="javascript:;" class="kt-notification-v2__item pl-5">
+							<div class="img_side">
+								<img class="br_50" width="58px" height="58px" src="./assets/media/users/100_13.jpg" alt="Generic" />
+								<div class="online_dot"></div>
+							</div>
+							<div class="kt-notification-v2__itek-wrapper">
+								<div class="kt-notification-v2__item-title">
+									Adrian Reuel
+								</div>
+							</div>
+						</a>
+					</div>
+				</ng-template>
+			</ngb-tab>
+			
+		</ngb-tabset>
+	</div>
+</div>
+<!-- end::Offcanvas Toolbar Quick Actions -->

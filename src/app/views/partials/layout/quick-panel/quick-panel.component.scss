@@ -1,0 +1,29 @@
+:host {
+	::ng-deep {
+		ngb-tabset > .nav-tabs {
+			display: none;
+		}
+	}
+}
+.br_50{
+	border-radius: 50%!important;
+}
+.online_dot{
+	background: #6DD400;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 3px;
+    right: -6px;
+	border: 2px solid #FFFFFF;
+}
+
+.img_side{
+	position: relative;
+}
+.vid_icon{
+	align-self: center;
+    line-height: .75em;
+    vertical-align: -.0667em;
+}
